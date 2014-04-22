@@ -1,0 +1,228 @@
+Return-path: <notification+yggx2sn@facebookmail.com>
+Received: from nk11p00mm-smtpin017.mac.com ([17.158.165.1])
+ by ms03514.mac.com (Oracle Communications Messaging Server 7u4-27.08
+ (7.0.4.27.7) 64bit (built Aug 22 2013))
+ with ESMTP id <0N3Q00J9E62DAVI0@ms03514.mac.com> for pcote@mac.com; Tue,
+ 08 Apr 2014 18:30:13 +0000 (GMT)
+Original-recipient: rfc822;pcote@mac.com
+Received: from mx-out.facebook.com ([66.220.144.150])
+ by nk11p00mm-smtpin017.mac.com
+ (Oracle Communications Messaging Server 7u4-27.08(7.0.4.27.7) 64bit (built Aug
+ 22 2013)) with ESMTP id <0N3Q00L836296VN0@nk11p00mm-smtpin017.mac.com> for
+ pcote@mac.com (ORCPT pcote@mac.com); Tue, 08 Apr 2014 18:30:13 +0000 (GMT)
+Received-SPF: pass (nk11p00mm-smtpin017.mac.com: domain of
+ notification+yggx2sn@facebookmail.com designates 66.220.144.150 as permitted
+ sender) receiver=nk11p00mm-smtpin005.mac.com; client-ip=66.220.144.150;
+ helo=mx-out.facebook.com; envelope-from=notification+yggx2sn@facebookmail.com;
+Authentication-results: nk11p00mm-smtpin017.mac.com; spf=pass
+ (nk11p00mm-smtpin017.mac.com: domain of notification+yggx2sn@facebookmail.com
+ designates 66.220.144.150 as permitted sender)
+ smtp.mailfrom=notification+yggx2sn@facebookmail.com;
+Received: from facebook.com
+ (kVOrIIjWoRz4JfA4bHpH4m/mMByBLM1w4kDfm9NqvG03iiBTFiJqUKk8V2EcDh1I
+ 10.102.107.87) by facebook.com with Thrift id
+ d215f488bf4b11e390070002c9b244c6-722fb4a0; Tue, 08 Apr 2014 11:30:11 -0700
+Date: Tue, 08 Apr 2014 11:30:11 -0700
+Return-path: <notification+yggx2sn@facebookmail.com>
+To: =?UTF-8?B?UGhpbGlwcGUgQ8O0dMOp?= <pcote@mac.com>
+From: Facebook <notification+yggx2sn@facebookmail.com>
+Reply-to: Message Email Reply
+ <m+30gm4ejz0000008ml3lq00002lxlr09jooug5uaqsqup1zci2lm@reply.facebook.com>
+Subject: Nouveau message de Jamie Klinger!
+Message-id: <774572da9b56f870a119f9c772b4f0ab@async.facebook.com>
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+Errors-to: notification+yggx2sn@facebookmail.com
+MIME-version: 1.0
+Content-type: multipart/alternative;
+ boundary=b1_774572da9b56f870a119f9c772b4f0ab
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=facebookmail.com;
+	s=s1024-2013-q3; t=1396981811;
+	bh=rhllBo+txeIIUA0wHwomAhJIlOxKy6Qf3HhHBUsf+Qw=;
+	h=Date:To:From:Subject:MIME-Version:Content-Type;
+	b=YORNGwg3Enm5tmsevEsRQnwONsd/rru1ZJXXOSgQCO1j9RKPnhkczjmsW/tdKeKue
+ pFUEY4VWvbuvScABIoqrsvyUFxGNDfTmQi0beiL1ZOnjNFkVQwBHi55BJgBgXcne6N
+ yS7qKKoIIDe8lBrKZ08wmoyHsc78nWJEnsMnny/g=
+Authentication-results: nk11p00mm-smtpin017.mac.com;	dkim=pass (1024-bit key)
+ header.d=facebookmail.com header.i=@facebookmail.com header.b=YORNGwg3;
+	dkim-adsp=pass
+x-icloud-spam-score: 33302230
+ f=facebookmail.com;e=facebookmail.com;is=yes;ir=no;pp=ham;spf=pass;dkim=pass;dmarc=?;wl=absent;pwl=absent;clxs=ham;clxl=absent
+x-dmarc-info: pass=?; dmarc-policy=(noPolicy); s=; d=
+X-MANTSH: 1TEIXREEbG1oaGkdHB0lGUkdDRl5PWBoaHxEKTEMXGx0EGx8SBBscHwQdGxAbHho
+	fGhEKWE0XSxEKbX4XGxEKTFkXGxoaGhEKWU0Xek9YWUVES0Z9QkNeT0ZDWV4RCkRZFxgdHREKW
+	UkXGnEaEBp3BhgYEnEbEhIQGncGGBoGGhEKWV4XaG55EQpDThdLGxsaYk5NHGgeS0MZeHMHGRI
+	bEhkaaVkRClhcFxkEGgQdB01LHRJISRxMBRsdBBsfEgQbHB8EHRsQGx4aHxsRCl5ZF2FPT356E
+	QpNXBcYGRgRCkxaF3hpe01rEQpFWRdoa2sRCkxfF3oFBQUFBQUFBQUdEQpNThcbEQpMRhdja2s
+	RCkNaFxwcBBgYGgQbHh4EGx8aEQpCXhcbEQpZRRcSEQpFSRcaEQpFZhcaEQpCRRdkWxpEYXhBf
+	kZmcxEKQk4Xa0dye0BdGmZsRm4RCkJMF2dYXx8dQH1sQh9lEQpCbBdtaXBjbRxQeEZwRREKQkA
+	XYHNpXURmewVZfnARCkJYF29bYh9gGhxFb2xMEQpNXhcbEQpwZxdrb2xNGR9BTnhZHBEKcGgXZ
+	xoYUl9QaUwBQHoRCnBoF3pmGnB+Q05Fb3NtEQpwaBdrZUV5RB9TbF5laxEKcGgXbR1SQU8TYF9
+	GU1wRCnBoF20bG19cRFNAXWAdEQpwfxdhTx8ZeUlpXHkaZhEKcF8XblJHRkZzW35kTXwRCnBfF
+	2h5ZEhJS11FWhlSEQpwXxduG1x6RhxSZGJkUxEKcH8XYnNTclN7GgV5TxoRCnBfF25cBWJmSXp
+	vTlgdEQpwXxdsBV5ARV5LZ29hbhEKcGwXYkJZEh5DGFJNflIRCnBMF2VoQV5OHV5lUxMYEQ==
+X-CLX-Spam: false
+X-CLX-Score: 1000
+X-Proofpoint-Virus-Version: vendor=fsecure
+ engine=2.50.10432:5.11.96,1.0.14,0.0.0000
+ definitions=2014-04-08_04:2014-04-08,2014-04-08,1970-01-01 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0
+ suspectscore=0 phishscore=0 adultscore=0 bulkscore=100 classifier=spam
+ adjust=0 reason=mlx scancount=1 engine=7.0.1-1402240000
+ definitions=main-1404080165
+X-Facebook: from 10.78.68.22 ([MTI3LjAuMC4x])	by async.facebook.com with HTTP
+ (ZuckMail);
+X-Facebook-Notify: msg; from=48300389; t=mid.1377710751685:4ae1e55f42872ea601;
+ mailid=9ae3d61G1f17fb7eG0G0G428d8c7d
+X-FACEBOOK-PRIORITY: 0
+X-Auto-Response-Suppress: All
+
+
+--b1_774572da9b56f870a119f9c772b4f0ab
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Jamie vous a envoy=C3=A9 un message.
+
+--------------------
+
+
+
+1) What is JoatU=20
+
+JOATU is the glimmer of a new star, an orbit that will attract people and =
+make then interact with each other with friendly trading functionality. =
+JOATU is about raising the community to its real value... and beyond.
+
+
+2) Who you are
+
+I'm a Graphic Designer currently studying Industrial Design. I worked in =
+the print, web and videogame industry for about 11 years before going back =
+to school full time. Learning new skills is fun, even if sometimes hard, =
+but helps you understand the world better, therefore boosting creativity. =
+I hope JOATU will give people this opportunity to learn from each other.
+
+
+3) What you do in this project
+
+I created the first visual mockups for JOATU in my free time to help =
+future members of the team understand the vision behind this great idea =
+and push it forward. I think it's important to invest your time not into =
+projects that will give you a bigger wallet but into projects that have a =
+real value in your heart because it's those little things that makes you =
+and the world better in the end. And you, what skills do you have? What =
+would you be happy to bring to the community?
+--------------------
+
+Vous pouvez r=C3=A9pondre =C3=A0 ce courriel via ce message priv=C3=A9.
+
+Pour r=C3=A9pondre =C3=A0 ce message, cliquez sur le lien suivant :
+https://www.facebook.com/n/?messages%2F&action=3Dread&tid=3Dmid.1377710751=
+685%3A4ae1e55f42872ea601&medium=3Demail&mid=3D9ae3d61G1f17fb7eG0G0G428d8c7=
+d&bcode=3D1.1396981811.AbleAkVQKcjXgqE9&n_m=3Dpcote%40mac.com
+
+Retrouvez des contacts de votre carnet d=E2=80=99adresses mac.com sur =
+Facebook =C2=A0:
+https://www.facebook.com/n/?find-friends%2F&ref=3Demail&medium=3Demail&mid=
+=3D9ae3d61G1f17fb7eG0G0G428d8c7d&bcode=3D1.1396981811.AbleAkVQKcjXgqE9&n_m=
+=3Dpcote%40mac.com
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Ce message a =C3=A9t=C3=A9 envoy=C3=A9 =C3=A0 pcote@mac.com. =
+S=E2=80=99il-vous-pla=C3=AEt, si vous ne d=C3=A9sirez plus recevoir =C3=A0 =
+l=E2=80=99avenir ces courriels de la part de Facebook Allez sur le lien =
+ci-dessous pour vous d=C3=A9sabonner
+https://www.facebook.com/o.php?k=3DAS0U9FIPvVco0FzF&u=3D521665406&mid=3D9a=
+e3d61G1f17fb7eG0G0G428d8c7d
+Facebook, Inc., Attention: Department 415, PO Box 10005, Palo Alto, CA =
+94303
+
+
+--b1_774572da9b56f870a119f9c772b4f0ab
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional //EN">
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8"><style type=3D"text/css">a.thumb:link, a.thumb:visited =
+{border:1px #CCCCCC solid !important;}a.thumb:active, a.thumb:hover =
+{border:1px #3B5998 solid =
+!important;}</style><title>Facebook</title></head><body =
+style=3D"margin:0;padding:0;" dir=3D"ltr"><table width=3D"98%" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"8"><tr><td =
+bgcolor=3D"#FFFFFF" width=3D"100%" style=3D"font-family:'lucida =
+grande',tahoma,verdana,arial,sans-serif;"><table cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" width=3D"500"><tr><td colspan=3D"2" =
+style=3D"padding:10px 0 0 =
+10px;color:#000000;font-size:13px;font-family:'lucida =
+grande',tahoma,verdana,arial,sans-serif;" valign=3D"top"><table =
+width=3D"100%" style=3D"color:#000000;font-size:13px;"><tr><td =
+width=3D"100%" valign=3D"top" align=3D"left" style=3D"font-family:'lucida =
+grande',tahoma,verdana,arial,sans-serif;color:#000000;font-size:13px;"><di=
+v style=3D"margin-bottom:15px;"><table cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"width:100%;padding-top:7px;"><tr><td valign=3D"top" =
+style=3D"padding:3px 5px 5px 0px;width:57px;"><a =
+href=3D"https://www.facebook.com/jamie.klinger" =
+style=3D"color:#3b5998;text-decoration:none;"><img src=3D"https://fbcdn-pr=
+ofile-a.akamaihd.net/hprofile-ak-prn2/t5.0-1/1119511_48300389_1547407675_q=
+.jpg" alt=3D"Jamie Klinger" style=3D"border: 0; height:50px; width:50px; " =
+/></a></td><td valign=3D"top" align=3D"left" style=3D"padding:5px 5px 5px =
+0;font-family:&#039;lucida =
+grande&#039;,tahoma,verdana,arial,sans-serif;"><table cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"width:100%;padding-bottom:5px;"><tr><td =
+style=3D"font-family:&#039;lucida grande&#039;,tahoma,verdana,arial,sans-s=
+erif;color:#000000;font-size:13px;"><a =
+style=3D"color:#3b5998;text-decoration:none;font-weight:bold;" =
+href=3D"https://www.facebook.com/jamie.klinger">Jamie Klinger</a></td><td =
+style=3D"text-align:right;color:#999999;padding-right:5px;font-family:&#03=
+9;lucida grande&#039;,tahoma,verdana,arial,sans-serif;font-size:11px;"> 8 =
+avril 20:00 </td></tr></table><div style=3D"width:458px;word-wrap:break-wo=
+rd;padding-bottom:7px;color:#000000;font-size:13px;">1) What is JoatU <br =
+/> <br /> JOATU is the glimmer of a new star, an orbit that will attract =
+people and make then interact with each other with friendly trading =
+functionality. JOATU is about raising the community to its real value... =
+and beyond.<br /> <br /> <br /> 2) Who you are<br /> <br /> I&#039;m a =
+Graphic Designer currently studying Industrial Design. I worked in the =
+print, web and videogame industry for about 11 years before going back to =
+school full time. Learning new skills is fun, even if sometimes hard, but =
+helps you understand the world better, therefore boosting creativity. I =
+hope JOATU will give people this opportunity to learn from each other.<br =
+/> <br /> <br /> 3) What you do in this project<br /> <br /> I created the =
+first visual mockups for JOATU in my free time to help future members of =
+the team understand the vision behind this great idea and push it forward. =
+I think it&#039;s important to invest your time not into projects that =
+will give you a bigger wallet but into projects that have a real value in =
+your heart because it&#039;s those little things that makes you and the =
+world better in the end. And you, what skills do you have? What would you =
+be happy to bring to the community?</div><div style=3D"padding:10px 0 0 =
+0;color:#000000;font-size:13px;"></div></td></tr></table></div></td></tr><=
+/table><span style=3D""><img src=3D"https://www.facebook.com/email_open_lo=
+g_pic.php?mid=3D9ae3d61G1f17fb7eG0G0G428d8c7d" =
+style=3D"border:0;width:1px;height:1px;" /></span><br /></td></tr><tr><td =
+colspan=3D"2" style=3D"color:#666666;padding:10px 5px 15px =
+10px;border-top:#E9E9E9 1px solid;line-height: 18px;font-size: =
+12px;font-family:'lucida grande',tahoma,verdana,arial,sans-serif;"><a =
+href=3D"https://www.facebook.com/n/?messages%2F&amp;action=3Dread&amp;tid=
+=3Dmid.1377710751685%3A4ae1e55f42872ea601&amp;medium=3Demail&amp;mid=3D9ae=
+3d61G1f17fb7eG0G0G428d8c7d&amp;bcode=3D1.1396981811.AbleAkVQKcjXgqE9&amp;n=
+_m=3Dpcote%40mac.com" style=3D"color:#3b5998; =
+text-decoration:none;">Afficher la conversation sur Facebook</a> &middot; =
+R=C3=A9pondez =C3=A0 ce courriel pour envoyer un message =C3=A0 Jamie =
+Klinger.<br>Ce message a =C3=A9t=C3=A9 envoy=C3=A9 =C3=A0 <a =
+href=3D"mailto:pcote&#064;mac.com" =
+style=3D"color:#3b5998;text-decoration:none;">pcote&#064;mac.com</a>. =
+S=E2=80=99il-vous-pla=C3=AEt, si vous ne d=C3=A9sirez plus recevoir =C3=A0 =
+l=E2=80=99avenir ces courriels de la part de Facebook <a =
+href=3D"https://www.facebook.com/o.php?k=3DAS0U9FIPvVco0FzF&amp;u=3D521665=
+406&amp;mid=3D9ae3d61G1f17fb7eG0G0G428d8c7d" =
+style=3D"color:#3b5998;text-decoration:none;">Se d=C3=A9sabonner de</a><br =
+/>Facebook, Inc., Attention: Department 415, PO Box 10005, Palo Alto, CA =
+94303</td></tr></table></td></tr></table></body></html>
+
+
+
+--b1_774572da9b56f870a119f9c772b4f0ab--
+
